@@ -29,7 +29,7 @@ DEBUG = False
 # DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
 #Set hosts to allow any app on Heroku and the local testing URL
-ALLOWED_HOSTS = ['.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['django-library2.herokuapp.com','127.0.0.1']
 
 
 # Application definition
